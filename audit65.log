@@ -1,0 +1,246 @@
+<object-stream>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>Message(message=Hello World, status=0)</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.RuleFlowLogEvent>
+      <type>8</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+    </org.drools.core.audit.event.RuleFlowLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>24</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_1</nodeId>
+      <nodeInstanceId>0</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>26</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_1</nodeId>
+      <nodeInstanceId>0</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>24</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_2</nodeId>
+      <nodeName>Hello</nodeName>
+      <nodeInstanceId>1</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>26</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_2</nodeId>
+      <nodeName>Hello</nodeName>
+      <nodeInstanceId>1</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>24</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>BusinessRuleTask_1</nodeId>
+      <nodeName>Hello Rule</nodeName>
+      <nodeInstanceId>2</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowGroupLogEvent>
+      <type>12</type>
+      <groupName>hellorule</groupName>
+      <size>0</size>
+    </org.drools.core.audit.event.RuleFlowGroupLogEvent>
+    <org.drools.core.audit.event.RuleFlowGroupLogEvent>
+      <type>13</type>
+      <groupName>hellorule</groupName>
+      <size>0</size>
+    </org.drools.core.audit.event.RuleFlowGroupLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Hello World [1]</activationId>
+      <rule>Hello World</rule>
+      <declarations>m=Message(message=Hello World, status=0); myMessage=Hello World</declarations>
+      <ruleFlowGroup>hellorule</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Hello World [1]</activationId>
+      <rule>Hello World</rule>
+      <declarations>m=Message(message=Hello World, status=0); myMessage=Hello World</declarations>
+      <ruleFlowGroup>hellorule</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>Message(message=Goodbye cruel world, status=1)</objectToString>
+    </org.drools.core.audit.event.ObjectLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Hello World [1]</activationId>
+      <rule>Hello World</rule>
+      <declarations>m=Message(message=Goodbye cruel world, status=1); myMessage=Goodbye cruel world</declarations>
+      <ruleFlowGroup>hellorule</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>4</type>
+      <activationId>GoodBye [1]</activationId>
+      <rule>GoodBye</rule>
+      <declarations>myMessage=Goodbye cruel world</declarations>
+      <ruleFlowGroup>hellorule</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>GoodBye [1]</activationId>
+      <rule>GoodBye</rule>
+      <declarations>myMessage=Goodbye cruel world</declarations>
+      <ruleFlowGroup>hellorule</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>GoodBye [1]</activationId>
+      <rule>GoodBye</rule>
+      <declarations>myMessage=Goodbye cruel world</declarations>
+      <ruleFlowGroup>hellorule</ruleFlowGroup>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.RuleFlowGroupLogEvent>
+      <type>14</type>
+      <groupName>hellorule</groupName>
+      <size>0</size>
+    </org.drools.core.audit.event.RuleFlowGroupLogEvent>
+    <org.drools.core.audit.event.RuleFlowGroupLogEvent>
+      <type>15</type>
+      <groupName>hellorule</groupName>
+      <size>0</size>
+    </org.drools.core.audit.event.RuleFlowGroupLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>26</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>BusinessRuleTask_1</nodeId>
+      <nodeName>Hello Rule</nodeName>
+      <nodeInstanceId>2</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>24</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_3</nodeId>
+      <nodeInstanceId>3</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>26</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_3</nodeId>
+      <nodeInstanceId>3</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowLogEvent>
+      <type>10</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+    </org.drools.core.audit.event.RuleFlowLogEvent>
+    <org.drools.core.audit.event.RuleFlowLogEvent>
+      <type>11</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+    </org.drools.core.audit.event.RuleFlowLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>27</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_3</nodeId>
+      <nodeInstanceId>3</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>25</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_3</nodeId>
+      <nodeInstanceId>3</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>27</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>BusinessRuleTask_1</nodeId>
+      <nodeName>Hello Rule</nodeName>
+      <nodeInstanceId>2</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>25</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>BusinessRuleTask_1</nodeId>
+      <nodeName>Hello Rule</nodeName>
+      <nodeInstanceId>2</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>27</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_2</nodeId>
+      <nodeName>Hello</nodeName>
+      <nodeInstanceId>1</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>25</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_2</nodeId>
+      <nodeName>Hello</nodeName>
+      <nodeInstanceId>1</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>27</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_1</nodeId>
+      <nodeInstanceId>0</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowNodeLogEvent>
+      <type>25</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+      <nodeId>_1</nodeId>
+      <nodeInstanceId>0</nodeInstanceId>
+    </org.drools.core.audit.event.RuleFlowNodeLogEvent>
+    <org.drools.core.audit.event.RuleFlowLogEvent>
+      <type>9</type>
+      <processId>com.sample.bpmn.hello</processId>
+      <processName>Hello World</processName>
+      <processInstanceId>1</processInstanceId>
+    </org.drools.core.audit.event.RuleFlowLogEvent>
+  </events>
+  <engine>PHREAK</engine>
+</org.drools.core.audit.WorkingMemoryLog>
+</object-stream>
